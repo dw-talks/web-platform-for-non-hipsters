@@ -6,6 +6,7 @@
   "scripts": {
     "css-grid": "http-server ./css-grid",
     "service-worker": "http-server ./service-worker",
+    "sonar": "sonar --config \"./sonar/.sonarrc\" http://westerndevs.com",
     "web-payment": "http-server ./web-payment"
   },
   "repository": {
@@ -19,6 +20,7 @@
   },
   "homepage": "https://github.com/dw-talks/web-platform-for-non-hipsters#readme",
   "dependencies": {
+    "@sonarwhal/sonar": "^0.8.1",
     "http-server": "^0.10.0"
   }
 }

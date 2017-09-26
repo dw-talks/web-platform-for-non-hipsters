@@ -1,0 +1,14 @@
+{
+  "author": "David Wesst",
+  "description": "Adds a solid red border to all Western Devs websites.",
+  "name": "WD Borderify",
+  "version": "1.0",
+  "icons": {
+      "20": "icons/border-20.png"
+  },
+
+  "content_scripts": [{
+      "matches": ["*://*.westerndevs.com/*"],
+      "js": ["borderify.js"]
+  }]
+}
