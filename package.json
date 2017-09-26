@@ -7,7 +7,7 @@
     "css-grid": "http-server ./css-grid",
     "service-worker": "http-server ./service-worker",
     "sonar": "sonar --config \"./sonar/.sonarrc\" http://westerndevs.com",
-    "web-payment": "http-server ./web-payment"
+    "payment-request": "http-server ./web-payment"
   },
   "repository": {
     "type": "git",
