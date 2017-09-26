@@ -1,0 +1,24 @@
+{
+  "name": "web-platform-for-non-hipsters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "css-grid": "http-server ./css-grid",
+    "service-worker": "http-server ./service-worker",
+    "web-payment": "http-server ./web-payment"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dw-talks/web-platform-for-non-hipsters.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dw-talks/web-platform-for-non-hipsters/issues"
+  },
+  "homepage": "https://github.com/dw-talks/web-platform-for-non-hipsters#readme",
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
+}
